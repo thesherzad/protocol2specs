@@ -5,15 +5,3 @@ pyyaml
 rapidfuzz
 streamlit
 reportlab
-sys
-pathlib
-pickle
-fitz
-re
-uuid
-yaml
-transformers
-torch
-tools
-time
-json
