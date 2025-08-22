@@ -1,0 +1,13 @@
+AST:
+  - aspartate aminotransferase
+  - sgOT
+ALT:
+  - alanine aminotransferase
+  - sgPT
+BILI:
+  - Bilirobin
+  - TBIL
+SYSBP:
+  - systolic blood pressure
+DIABP:
+  - diastolic blood pressure

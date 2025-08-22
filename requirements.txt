@@ -1,0 +1,7 @@
+openai>=1.40.0
+faiss-cpu
+pymupdf
+pyyaml
+rapidfuzz
+streamlit
+reportlab
