@@ -1,5 +1,7 @@
 # protocol2spec: Clinical Data Specification Builder
 
+This app can be helpful to pull concise definition for a clinical dataset variable, e.g. DOSE, VISIT, ALB etc. It uses internal/local file indexing and ranking to find the best matched text chunks and then sends to to an LLM (OpenAI's ChatGPT) to craft the final answer.
+
 # Why should I use this, not ChatGPT?
 
 Of course you can use ChatGPT (or any chat bot) but here are the differences that I realized:
@@ -22,12 +24,13 @@ Of course you can use ChatGPT (or any chat bot) but here are the differences tha
 
 3.  Create a `.env` file at the root of the project `protocol2specs/.env` then add your OpenAI API key `OPENAI_API_KEY="your-api-key"`
 
-4.  Go to the project's terminal and run `streamlit run app/streamlit_app.py`
+4.  Go to the terminal and run `streamlit run app/streamlit_app.py`
 
 # How to use it:
 
 1.  Upload your protocol (PDF)
 2.  Type in the term or variable name to get definition for from the Protocol (e.g. "Baseline visits definition" or "Dose escalation")
+3.  Click on the "Search" button
 
 # How it works:
 
