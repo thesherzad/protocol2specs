@@ -1,4 +1,4 @@
-# protocol2spec: Clinical Data Specification Builder
+# protocol2specs: Clinical Data Specification Builder
 
 This app can be helpful to pull concise definition for a clinical dataset variable, e.g. DOSE, VISIT, ALB etc. It uses internal/local file indexing and ranking to find the best matched text chunks and then sends to to an LLM (OpenAI's ChatGPT) to craft the final answer.
 
